@@ -2,7 +2,7 @@
 Rock Paper Scissors game
 */
 
-var gameOptions = [ 'rock', 'paper', 'sissors'];
+var gameOptions = [ 'rock', 'paper', 'scissors'];
 var player = '',
     computer,
     validEntry = false;
@@ -20,7 +20,7 @@ function randomNumber(number) {
 
 //propmt user for valid entry;
 while (!validEntry) {
-    player = prompt('Enter "rock", "paper", or "sissors" to play').toLowerCase();
+    player = prompt('Enter "rock", "paper", or "scissors" to play').toLowerCase();
     var x;
     for (x = 0; x < gameOptions.length; x += 1) {
         if (player === gameOptions[x]) {
