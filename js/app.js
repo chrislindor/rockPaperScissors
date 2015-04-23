@@ -56,7 +56,7 @@ function tie() {
     message += '<p><a href="index.html">Try Again</a></p>';
     return message;
 }
-//conditional statments to check who win
+//conditional statments to check who won
 if (player === computer) {
     print(tie(), "main");
 } else if (player === gameOptions[0] && computer === gameOptions[1]) {
